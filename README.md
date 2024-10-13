@@ -6,5 +6,7 @@ Folgende Formate werden derzeit gezeigt:
 * JSON (mit der Bibliothek [Gson](https://github.com/google/gson))
 * XML (mit JAXB)
 
-## Jaxb
-[Jaxb](doc/Jaxb.md)
+## Dokumentation
+
+* [Jaxb](doc/Jaxb.md)
+* [Gson](doc/Jason.md)
