@@ -1,4 +1,5 @@
 # SerialisationDemo
+![Build-Status](https://github.com/mflingelli/SerialisationDemo/actions/workflows/maven.yml/badge.svg)
 
 In diesem Projekt wird gezeigt, wie Java-Objekte serialisiert werden können.
 
