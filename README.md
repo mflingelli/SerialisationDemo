@@ -1,5 +1,6 @@
 # SerialisationDemo
 ![Build-Status](https://github.com/mflingelli/SerialisationDemo/actions/workflows/maven.yml/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 In diesem Projekt wird gezeigt, wie Java-Objekte serialisiert werden können.
 
