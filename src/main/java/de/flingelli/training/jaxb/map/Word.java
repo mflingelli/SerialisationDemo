@@ -1,21 +1,10 @@
-package de.flingelli.training.jaxb;
+package de.flingelli.training.jaxb.map;
 
-
-import jakarta.xml.bind.annotation.*;
+import jakarta.xml.bind.annotation.XmlElement;
 
 public class Word {
-    private long id;
     private String word;
     private String translation;
-
-    public long getId() {
-        return id;
-    }
-
-    @XmlElement
-    public void setId(long id) {
-        this.id = id;
-    }
 
     public String getWord() {
         return word;

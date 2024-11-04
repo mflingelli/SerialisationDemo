@@ -1,4 +1,4 @@
-package de.flingelli.training.jaxb;
+package de.flingelli.training.jaxb.list;
 
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
@@ -9,22 +9,23 @@ import jakarta.xml.bind.annotation.XmlRootElement;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
 
 @XmlRootElement(name = "Vocabulary")
 public class Vocabulary {
-    private ArrayList<Word> words = new ArrayList<>();
+    private List<Word> words = new ArrayList<>();
 
     public boolean addWord(Word word) {
         return words.add(word);
     }
 
-    public ArrayList<Word> getWords() {
+    public List<Word> getWords() {
         return words;
     }
 
     @XmlElementWrapper(name = "words")
     @XmlElement(name = "word")
-    public void setWords(ArrayList<Word> words) {
+    public void setWords(List<Word> words) {
         this.words = words;
     }
 
