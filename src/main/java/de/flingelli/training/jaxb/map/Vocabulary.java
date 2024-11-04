@@ -15,7 +15,7 @@ import java.util.Map;
 public class Vocabulary {
     private Map<Long, Word> words = new HashMap();
 
-    public void addWord(long id, Word word) {
+    public void putWord(long id, Word word) {
         words.put(id, word);
     }
 

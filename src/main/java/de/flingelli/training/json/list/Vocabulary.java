@@ -1,23 +1,24 @@
-package de.flingelli.training.json;
+package de.flingelli.training.json.list;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Vocabulary {
-    private ArrayList<Word> words = new ArrayList<>();
+    private List<Word> words = new ArrayList<>();
 
     public boolean addWord(Word word) {
         return words.add(word);
     }
 
-    public ArrayList<Word> getWords() {
+    public List<Word> getWords() {
         return words;
     }
 
-    public void setWords(ArrayList<Word> words) {
+    public void setWords(List<Word> words) {
         this.words = words;
     }
 

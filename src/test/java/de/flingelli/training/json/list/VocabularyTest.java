@@ -1,4 +1,4 @@
-package de.flingelli.training.json;
+package de.flingelli.training.json.list;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -8,7 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class VocabularyTest {
-    private static String FILENAME = "vocabulary.json";
+    private static String FILENAME = "vocabulary_list.json";
 
     @Test
     public void writeFile() throws IOException {

@@ -1,6 +1,5 @@
-package de.flingelli.training.jaxb.map;
+package de.flingelli.training.json.map;
 
-import jakarta.xml.bind.JAXBException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -8,12 +7,11 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-
 public class VocabularyTest {
-    private static String FILENAME = "vocabulary_map.xml";
+    private static String FILENAME = "vocabulary_map.json";
 
     @Test
-    public void writeFile() throws JAXBException, IOException {
+    public void writeFile() throws IOException {
         Vocabulary vocabulary = new Vocabulary();
         vocabulary.putWord(0, getWord("Auto", "car"));
         vocabulary.putWord(1, getWord("Fahrrad", "bike"));
@@ -22,7 +20,7 @@ public class VocabularyTest {
     }
 
     @Test
-    public void readFile() throws JAXBException, IOException {
+    public void readFile() throws IOException {
         Vocabulary vocabulary = new Vocabulary();
         vocabulary.putWord(0, getWord("Auto", "car"));
         vocabulary.putWord(1, getWord("Fahrrad", "bike"));

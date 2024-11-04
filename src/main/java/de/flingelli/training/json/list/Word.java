@@ -1,4 +1,4 @@
-package de.flingelli.training.json;
+package de.flingelli.training.json.list;
 
 public class Word {
     private long id;
